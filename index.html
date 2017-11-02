@@ -14,10 +14,10 @@
   <body>
     <!-- Header -->
     <div class="container-fluid">
-    <div class="row">
+    <div class="row fixed-top">
     <div class="col">
     <header>
-      <nav class="navbar bg-light">
+      <nav class="navbar">
         <a class="navbar-brand" href="#">
           <img src="img/alpaca-main.png" width="30" height="30" class="d-inline-block align-top" alt="">
           Design Portfolio
@@ -31,7 +31,7 @@
               <a class="nav-link" href="#">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -39,6 +39,7 @@
           </ul>
         </div>
       </nav>
+      <img src="img/cloud-header.png" class="img-fluid cloud-img">
     </header>
     </div>
   </div>
@@ -47,33 +48,35 @@
     <section class="middle">
     <div class="container-fluid">
       <div class="row align-items-center">
-        <div class="col text-right">
+        <div class="col text-center">
+          <div class="spacing"></div>
           <h1>Jodie Chang</h1>
-          <h3>Media Arts</h3>
-          <h3>& Graphic Designer</h3>
-          <h1>Portfolio</h1>
-        </div>
-        <div class="col-6 text-center">
-          <img src="img/alpaca-main.png" class="img-fluid" alt="Head of a purple alpaca plushie">
-        </div>
-        <div class="col text-left">
-          <h3>Branding</h3>
-          <h3>Logos</h3>
-          <h3>Games</h3>
-          <h3>UI / UX</h3>
+          <h3>Media Arts & Graphic Designer Portfolio</h3>
+          <img src="img/alpaca-main.png" class="img-fluid rem-padding" alt="Head of a purple alpaca plushie">
+          <h3>Branding | Immersive Environments | Logos | UI / UX</h3>
+          <h2 class="text-center"><a href="#projects" class="head-link">▾ Projects ▾</a></h2>
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row align-items-center">
-        <div class="col">
-          <h2 class="text-center">Projects</h2>
+    <div class="spacing"></div>
+    <div class="container-fluid" id="projects">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Canvas of Sound</h1>
+          <img src="img/alpaca-main.png" class="img-fluid rem-padding" alt="Head of a purple alpaca plushie">
+          <p class="para">Canvas of Sound is a virtual reality environment created using Unity that simulates how a person with sound to color synesthesia experiences the world around them.</p>
+        </div>
+        <div class="col text-center">
+          <h1>Garden to Table</h1>
+          <img src="img/alpaca-main.png" class="img-fluid rem-padding" alt="Head of a purple alpaca plushie">
+          <p class="para">Garden to Table is a mobile application that teaches users how to grow herbs from start to finish as well as provide suggestions on how to cook the harvest.</p>
         </div>
       </div>
     </div>
     </section>
     <!-- Footer -->
-    <footer class="fixed-bottom">
+    <img src="img/footer-img.png" class="img-fluid grass-img">
+    <footer>
       <div class="container">
         <div class="row">
           <div class="col">

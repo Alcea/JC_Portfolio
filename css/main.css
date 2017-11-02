@@ -10,7 +10,9 @@ footer p{
   color: white;
   margin: 0.5rem;
 }
-
+.grass-img{
+  margin-bottom:-1rem;
+}
 h2{
   font-family: "Nunito-Regular", Arial, sans-serif;
   color: #227499;
@@ -21,6 +23,23 @@ h1{
 
 a{
     color: black;
+}
+
+.para{
+  border: 1px solid #738793;
+  border-radius: 25px;
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom:2rem;
+}
+.rem-padding{
+  padding-bottom: 2rem;
+}
+
+.navbar{
+  background-color: white;
+  padding: 0rem 1rem;
+  padding-top: 0.3rem;
 }
 .nav-link:focus, .nav-link:hover {
   color: #A6CEE8;
@@ -35,4 +54,32 @@ a{
 
 .middle {
   padding: 0 1rem;
+}
+.cloud-img{
+  margin-top:-2rem;
+}
+
+.head-link{
+  color:#227499;
+}
+
+.head-link:hover{
+  color:#738793;
+  text-decoration: none;
+}
+.spacing {
+  color: #A6CEE8;
+  height:125px;
+}
+
+@media (max-width:653px){
+  h1 {
+    font-size:2.3rem;
+  }
+  h2{
+    font-size:1.8rem;
+  }
+  h3{
+    font-size:1.6rem;
+  }
 }
