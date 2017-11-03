@@ -20,15 +20,18 @@ h2{
 h1{
   font-family: "Nunito-SemiBold", Arial, sans-serif;
 }
-
+h3{
+  margin-top: .5rem;
+}
 a{
     color: black;
 }
 p{
   margin:0;
 }
+
 textarea{
-  max-width:100%;
+  max-width: 100%;
   margin-bottom:1rem;
   padding: .375rem .75rem;
   font-size: 1rem;
@@ -39,7 +42,9 @@ textarea{
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: .25rem;
+  display: inline-block;
 }
+
 .img-fluid{
   min-width: 200px;
 }
@@ -50,7 +55,7 @@ textarea{
   padding: 1.5rem;
   min-width: 16.3rem;
   max-width: 43rem;
-  margin-bottom:2rem;
+  margin-bottom: 1rem;
 }
 .rem-padding{
   padding-bottom: 2rem;
@@ -83,10 +88,12 @@ textarea{
 
 .head-link{
   color:#227499;
+  transition-duration: 0.3s;
 }
 
 .head-link:hover{
   color:#738793;
+  background-color: #A6CEE8;
   text-decoration: none;
 }
 .spacing {
@@ -113,12 +120,60 @@ textarea{
   border-radius: 25px;
   margin-bottom: 2rem
 
+
 }
 .card-img-top{
   border-bottom: 1px solid #738793;
   padding: 1rem;
 }
 
+.style-border {
+  border: 1px solid #738793;
+  margin: 0rem 0rem 1rem 0rem;
+  border-radius: 25px;
+  padding: 2rem;
+  background-color: white;
+}
+.line{
+  border-bottom: 1px solid #738793;
+  margin-bottom: 1rem;
+}
+
+code {
+  background-color: #A6CEE8;
+  padding: 0.5rem;
+  color: #68776D;
+}
+.form-control{
+  display: inline-block;
+  width: 70%;
+
+}
+/* Color Swatches */
+.bg-blue {
+  display: inline-flex;
+  background-color: #A6CEE8;
+  width: 100px;
+  height: 100px;
+}
+.secondary-blue {
+  display: inline-flex;
+  background-color: #227499;
+  width: 100px;
+  height: 100px;
+}
+.border-grey {
+  display: inline-flex;
+  background-color: #738793;
+  width: 100px;
+  height: 100px;
+}
+.footer-color {
+  display: inline-flex;
+  background-color: #68776D;
+  width: 100px;
+  height: 100px;
+}
 @media (max-width:653px){
   h1 {
     font-size:2.3rem;
