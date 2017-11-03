@@ -93,7 +93,9 @@ textarea{
   color: #A6CEE8;
   height:125px;
 }
-
+.spacing-half{
+  height: 35px;
+}
 .btn-primary {
   color: #fff;
   background-color: #227499;
@@ -104,6 +106,17 @@ textarea{
   color: #fff;
   background-color: #A6CEE8;
   border-color: #A6CEE8;
+}
+
+.card {
+  border: 1px solid #738793;
+  border-radius: 25px;
+  margin-bottom: 2rem
+
+}
+.card-img-top{
+  border-bottom: 1px solid #738793;
+  padding: 1rem;
 }
 
 @media (max-width:653px){
