@@ -28,7 +28,7 @@ a{
     color: black;
 }
 p{
-
+  padding-top: 0.25rem;
   margin:0;
 }
 
@@ -135,7 +135,7 @@ textarea{
 
 .style-border {
   border: 1px solid #738793;
-  margin: 0rem 0rem 1rem 0rem;
+  margin: 1rem 0.5rem 1rem 0rem;
   border-radius: 25px;
   padding: 2rem;
   background-color: white;
