@@ -66,6 +66,10 @@ iframe{
   min-width: 16.3rem;
   max-width: 28rem;
 }
+
+.min-length{
+  min-width: 15rem;
+}
 .rem-padding{
   padding-bottom: 2rem;
 }
