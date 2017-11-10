@@ -18,6 +18,7 @@ h2{
   color: #227499;
 }
 h1{
+  display: inline-block;
   font-family: "Nunito-SemiBold", Arial, sans-serif;
 }
 h3{
@@ -27,6 +28,7 @@ a{
     color: black;
 }
 p{
+
   margin:0;
 }
 
@@ -56,6 +58,10 @@ textarea{
   min-width: 16.3rem;
   max-width: 43rem;
   margin-bottom: 1rem;
+}
+.max-length{
+  min-width: 16.3rem;
+  max-width: 28rem;
 }
 .rem-padding{
   padding-bottom: 2rem;
