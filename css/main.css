@@ -111,7 +111,12 @@ iframe{
 }
 .spacing {
   color: #A6CEE8;
-  height:125px;
+  height:150px;
+}
+
+.spacing-index{
+  color: #A6CEE8;
+  height: 75px;
 }
 .spacing-half{
   height: 35px;
@@ -148,7 +153,7 @@ iframe{
   background-color: white;
 }
 .line{
-  border-bottom: 1px solid #738793;
+  border-bottom: 1.4px solid #738793;
   margin-bottom: 1rem;
 }
 
@@ -202,5 +207,8 @@ code {
 @media (max-width:320px){
   iframe{
     min-height: 200px;
+  }
+  .spacing{
+    height: 135px;
   }
 }
