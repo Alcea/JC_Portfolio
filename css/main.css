@@ -47,6 +47,9 @@ textarea{
   display: inline-block;
 }
 
+iframe{
+  min-height: 315px;
+}
 .img-fluid{
   min-width: 200px;
 }
@@ -189,5 +192,11 @@ code {
   }
   h3{
     font-size:1.6rem;
+  }
+}
+
+@media (max-width:320px){
+  iframe{
+    min-height: 200px;
   }
 }
