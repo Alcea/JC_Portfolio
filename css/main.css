@@ -107,7 +107,6 @@ iframe{
 
 .head-link:hover{
   color:#738793;
-  background-color: #A6CEE8;
   text-decoration: none;
 }
 .spacing {
@@ -151,11 +150,10 @@ iframe{
   border-bottom: 4px solid #dde9ff;
   border-left: 4px solid #dde9ff;
   border-right: 4px solid #dde9ff;
-  margin: 1rem 0.5rem 1rem 0rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-radius: 25px;
   padding: 2rem;
   background-color: white;
-  max-width: 100%;
 }
 .line{
   border-bottom: 1.4px solid #738793;
