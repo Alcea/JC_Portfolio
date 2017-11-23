@@ -18,8 +18,8 @@
     <div class="col">
     <header>
       <nav class="navbar">
-        <a class="navbar-brand" href="index.html">
-          <img src="img/alpaca-main.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="#">
+          <img src="img/alpaca-main.png" width="30" height="30" class="d-inline-block align-top" alt="small alpaca head logo">
           Portfolio Style Guide
         </a>
         <div class="navbar navbar-expand" id="navbarNav">
@@ -40,25 +40,24 @@
               <a class="nav-link" href="#combined_elements">Combined Elements</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Citations</a>
+              <a class="nav-link" href="citations.html">Citations</a>
             </li>
           </ul>
         </div>
       </nav>
-      <img src="img/cloud-header.png" class="img-fluid cloud-img">
+      <img src="img/cloud-header.png" class="img-fluid cloud-img" alt="cloud image surrounding the header">
     </header>
     </div>
   </div>
 </div>
     <!-- Middle section -->
-
-    <div class="spacing" id="interactive_elements"></div>
     <section class="middle">
+    <div class="spacing" id="interactive_elements"></div>
       <h1>Interactive Elements</h1>
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <div class="style-border">
+            <div class="style-border d-block">
               <h2>Text Link</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
@@ -75,7 +74,7 @@
 
         <div class="row">
           <div class="col">
-            <div class="style-border">
+            <div class="style-border d-block">
               <h2>Submit Button</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
@@ -93,7 +92,7 @@
 
         <div class="row">
           <div class="col">
-            <div class="style-border">
+            <div class="style-border d-block">
               <h2>Text Input & Field</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
@@ -115,7 +114,7 @@
 
         <div class="row">
           <div class="col">
-            <div class="style-border">
+            <div class="style-border d-block">
               <h2>Text Area</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
@@ -127,20 +126,41 @@
               </code>
 
               <h3>Rendered element:</h3>
-              <textarea name="message" row="5" cols="54" id="message" placeholder="Inquiry here"></textarea>
+              <textarea name="message" cols="54" id="message" placeholder="Inquiry here"></textarea>
             </div>
           </div>
         </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="style-border d-block">
+            <h2>Images</h2>
+            <div class="line"></div>
+            <h3>CSS selector:</h3>
+              <p>.img-fluid, .rem-padding, .interactive-img</p>
+            <h3>Sample code</h3>
+
+            <code>
+            &lt;a href="canvas-of-sound.html" class="head-link"&gt;
+            &lt;img src="img/cos-poster.png" class="img-fluid rem-padding interactive-img" alt="White canvas with a sound wave painted on to it, with colorful bubbles emerging from the canvas" width=200&gt;&lt;/a&gt;
+            </code>
+
+            <h3>Rendered element:</h3>
+            <a href="canvas-of-sound.html" class="head-link">
+              <img src="img/cos-poster.png" class="img-fluid rem-padding interactive-img" alt="White canvas with a sound wave painted on to it, with colorful bubbles emerging from the canvas" width=200></a>
+          </div>
+        </div>
       </div>
+    </div>
     </section>
 
-    <div class="spacing" id="text_elements"></div>
     <section class="middle">
+      <div class="spacing" id="text_elements"></div>
       <h1>Text Elements</h1>
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <div class="style-border">
+            <div class="style-border d-block">
               <h2>Headings</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
@@ -163,11 +183,11 @@
 
         <div class="row">
           <div class="col">
-            <div class="style-border">
+            <div class="style-border d-block">
               <h2>Paragraphs</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
-                <p>.para</p>
+                <p>p, .max-length, .min-length</p>
               <h3>Sample code</h3>
 
               <code>
@@ -175,20 +195,21 @@
               </code>
 
               <h3>Rendered element:</h3>
-              <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eros tortor, posuere at consectetur eget, laoreet mollis ipsum. Sed lacinia elit eu laoreet luctus. Aliquam erat volutpat. Praesent aliquam ex turpis, nec aliquam dui venenatis in. Donec et neque ac erat placerat ullamcorper. Curabitur ac eleifend enim. Nunc lobortis dictum augue, sed tristique risus iaculis vestibulum. Fusce ac fringilla dui. Proin mi magna, aliquam ac tincidunt vel, pharetra varius ante. Praesent varius leo mi, quis porta lacus pulvinar in.</p>
+              <p class="max-length">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eros tortor, posuere at consectetur eget, laoreet mollis ipsum. Sed lacinia elit eu laoreet luctus. Aliquam erat volutpat. Praesent aliquam ex turpis, nec aliquam dui venenatis in. Donec et neque ac erat placerat ullamcorper. Curabitur ac eleifend enim. Nunc lobortis dictum augue, sed tristique risus iaculis vestibulum. Fusce ac fringilla dui. Proin mi magna, aliquam ac tincidunt vel, pharetra varius ante. Praesent varius leo mi, quis porta lacus pulvinar in.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="spacing" id="combined_elements"></div>
+
     <section class="middle">
+    <div class="spacing" id="combined_elements"></div>
       <h1>Combined Elements</h1>
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <div class="style-border">
+            <div class="style-border d-block">
               <h2>Main Navigation</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
@@ -198,8 +219,8 @@
               <code>
                 &lt;header&gt;
                   &lt;nav class="navbar"&gt;
-                    &lt;a class="navbar-brand" href="#"&gt;
-                      &lt;img src="img/alpaca-main.png" width="30" height="30" class="d-inline-block align-top" alt=""&gt;
+                    &lt;a class="navbar-brand" href="index.html"&gt;
+                      &lt;img src="img/alpaca-main.png" width="30" height="30" class="d-inline-block align-top" alt="small alpaca head logo"&gt;
                       Design Portfolio
                     &lt;/a&gt;
                     &lt;div class="navbar navbar-expand" id="navbarNav"&gt;
@@ -213,15 +234,15 @@
                       &lt;/ul&gt;
                     &lt;/div&gt;
                   &lt;/nav&gt;
-                  &lt;img src="img/cloud-header.png" class="img-fluid cloud-img"&gt;
+                  &lt;img src="img/cloud-header.png" class="img-fluid cloud-img" alt="cloud image surrounding the header"&gt;
                 &lt;/header&gt;
               </code>
 
               <h3>Rendered element:</h3>
               <header>
                 <nav class="navbar">
-                  <a class="navbar-brand" href="#">
-                    <img src="img/alpaca-main.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="img/alpaca-main.png" width="30" height="30" class="d-inline-block align-top" alt="small alpaca head logo">
                     Design Portfolio
                   </a>
                   <div class="navbar navbar-expand" id="navbarNav">
@@ -241,7 +262,7 @@
                     </ul>
                   </div>
                 </nav>
-                <img src="img/cloud-header.png" class="img-fluid cloud-img">
+                <img src="img/cloud-header.png" class="img-fluid cloud-img" alt="cloud image surrounding the header">
               </header>
             </div>
           </div>
@@ -249,7 +270,7 @@
 
         <div class="row">
           <div class="col">
-            <div class="style-border">
+            <div class="style-border d-block">
               <h2>Grid Structure</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
@@ -301,7 +322,7 @@
 
         <div class="row">
           <div class="col">
-            <div class="style-border">
+            <div class="style-border d-block">
               <h2>Color Swatches</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
@@ -346,12 +367,13 @@
               </code>
 
               <h3>Rendered element:</h3>
-              <img src="img/footer-img.png" class="img-fluid grass-img">
+              <img src="img/footer-img.png" class="img-fluid grass-img" alt="bottom grass img for the footer">
               <footer>
                 <div class="container">
                   <div class="row">
                     <div class="col">
                       <p class="text-center">© Jodie Chang 2017</p>
+                      <p class="text-center"><a href="citations.html" class="foot-link">Citations</a> | <a href="https://github.com/Alcea/JC_Portfolio" class="foot-link">Github</a> | <a href="styleguide.html" class="foot-link">Style Guide</a></p>
                     </div>
                   </div>
                 </div>
@@ -390,7 +412,7 @@
                   <div><label class="col-form-label" for="email"><strong>Email:</strong></label></div>
                   <input type="text" class="form-control" id="email" placeholder="Email here">
                   <div><label class="col-form-label" for="message"><strong>Content:</strong></label></div>
-                  <textarea name="message" row="5" cols="54" id="message" placeholder="Inquiry here"></textarea>
+                  <textarea name="message" cols="54" id="message" placeholder="Inquiry here"></textarea>
                   <div class="text-right"><button type="button" class="btn btn-primary">Send</button></div>
                 </div>
               </form>
@@ -402,32 +424,40 @@
         <div class="row">
           <div class="col">
             <div class="style-border">
-              <h2>Image Card</h2>
+              <h2>Project Preview</h2>
               <div class="line"></div>
               <h3>CSS selector:</h3>
-                <p>.col, .card, .card-img-top, .card-body, .card-text, .img-fluid</p>
+                <p>.col, .text-center, .container, .row, head-link, .interactive-img, .rem-padding, .img-fluid, .justify-content-center</p>
               <h3>Sample code</h3>
 
               <code>
-                &lt;div class="col"&gt;
-                  &lt;div class="card" style="width: 20rem;"&gt;
-                    &lt;img class="card-img-top img-fluid" src="img/alpaca-main.png" alt="Card image cap"&gt;
-                    &lt;div class="card-body"&gt;
-                      &lt;p class="card-text"&gt;One sentence caption of image&lt;/p&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
+                &lt;div class="col text-center style-border"&gt;
+                  &lt;a href="canvas-of-sound.html" class="head-link"&gt;
+                    &lt;h1>Canvas of Sound&lt;/h1&gt;
+                    &lt;img src="img/cos-poster.png" class="img-fluid rem-padding interactive-img" alt="White canvas with a sound wave painted on to it, with colorful bubbles emerging from the canvas" width=50%&gt;&lt;/a&gt;
+                  &lt;p class="text-left"&gt;Canvas of Sound is a virtual reality environment created using Unity that simulates how a person with sound to color synesthesia experiences the world around them.&lt;/p&gt;
                 &lt;/div&gt;
               </code>
 
               <h3>Rendered element:</h3>
-              <div class="col">
-                <div class="card" style="width: 20rem;">
-                  <img class="card-img-top img-fluid" src="img/alpaca-main.png" alt="Card image cap" >
-                  <div class="card-body">
-                    <p class="card-text">One sentence caption of image</p>
+              <div class="container justify-content-center">
+                <div class="row">
+                  <div class="col text-center style-border">
+
+                    <a href="canvas-of-sound.html" class="head-link">
+                      <h1>Canvas of Sound</h1>
+                      <img src="img/cos-poster.png" class="img-fluid rem-padding interactive-img" alt="White canvas with a sound wave painted on to it, with colorful bubbles emerging from the canvas" width=300></a>
+                    <p class="text-left">Canvas of Sound is a virtual reality environment created using Unity that simulates how a person with sound to color synesthesia experiences the world around them.</p>
+                  </div>
+                  <div class="col text-center style-border">
+
+                    <a href="garden-app.html" class="head-link">
+                      <h1>Garden to Table</h1>
+                      <img src="img/eg-category.png" class="img-fluid rem-padding interactive-img" alt="Category tab for Garden to Table application" width=100></a>
+                    <p class="text-left">Garden to Table is a mobile application that teaches users how to grow herbs from start to finish as well as provide suggestions on how to cook the harvest.</p>
+                    </div>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
@@ -460,7 +490,7 @@
                 <div class="row">
                   <div class="col style-border">
                     <h1>Canvas of Sound</h1>
-                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Rxh4rmnTry0" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/Rxh4rmnTry0" allowfullscreen></iframe>
                     <p>Canvas of Sound focuses on sensory based immersion specifically what the person wearing the virtual reality headset is seeing and hearing. My role in the project was the project leader, sound director and main programmer. This VR environment was a course project created using Unity by myself and two other classmates with the project theme of "going beyond" to evoke a sense of wonder, empathy and provide an interesting experience that someone may normally not be able to experience. Imagine the ability to see sound in the form of colors, spatially oriented in front of you. This simultaneous occurring sensation is called synesthesia. According to the American Psychological Association, 1 in 2000 people actually have this realistic superpower.</p>
                   </div>
                   <div class="col style-border">
@@ -470,14 +500,16 @@
                     Starting with the theme that was given, our group did an affinity diagramming exercise that resulted in three categories: simulation, psychological, and sightseeing. Synesthesia came as an after-thought while suggesting topics that would fall under all three categories. As the project leader, I organized and directed the flow of work based on the strengths of the team members to meet milestone deadlines, as well as promoted discussion and made the finalization of each milestone hand-in. As the main programmer, I worked with the flow of the simulation, interactivity of the objects, and aided in the environment design. The project went through three major iterations of both narrative and environment elements to create the final product. The scope was limited to one synesthetic affect instead of the original three that we wanted to create for the sake of time. A lot of consideration was put into movement design in order to decrease the sense of motion sickness. As the sound director, I designed the sequence of the audio as well as what type of audio would appear upon interacting with objects.
                     </p>
                   </div>
-                  </div>
                 </div>
-
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <img src="img/footer-img.png" class="img-fluid grass-img">
+    <img src="img/footer-img.png" class="img-fluid grass-img" alt="bottom grass img for the footer">
     <footer>
       <div class="container">
         <div class="row">
@@ -488,10 +520,5 @@
         </div>
       </div>
     </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>
