@@ -68,7 +68,6 @@ iframe{
   margin-bottom: 1rem;
 }
 .max-length{
-  min-width: 16.3rem;
   max-width: 28rem;
 }
 
@@ -159,6 +158,15 @@ iframe{
 
 .style-border {
   display:inline-block;
+  border-bottom: 4px solid #dde9ff;
+  border-left: 4px solid #dde9ff;
+  border-right: 4px solid #dde9ff;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 25px;
+  padding: 2rem;
+  background-color: white;
+}
+.style-border-guide {
   border-bottom: 4px solid #dde9ff;
   border-left: 4px solid #dde9ff;
   border-right: 4px solid #dde9ff;
