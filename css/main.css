@@ -11,6 +11,7 @@ footer p{
   margin: 0.5rem;
 }
 .grass-img{
+  margin-top: 2em;
   margin-bottom:-1rem;
 }
 h2{
@@ -29,8 +30,9 @@ a{
     color: black;
 }
 p{
+  margin: 0.25em 0;
   padding-top: 0.25rem;
-  margin:0;
+
 }
 
 textarea{
@@ -228,4 +230,5 @@ code {
   .spacing{
     height: 135px;
   }
+
 }
