@@ -228,6 +228,13 @@ code {
   display: inline-block;
   width:60%;
 }
+
+.index-cos{
+  width: 50%;
+}
+.index-gtt{
+  width:38.5%;
+}
 @media (max-width:768px){
   .grass-img{
     margin-top:0;
